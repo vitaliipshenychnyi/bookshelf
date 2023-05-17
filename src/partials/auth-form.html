@@ -1,0 +1,67 @@
+<div class="auth-backdrop is-hidden">
+  <form class="auth-form js-register-form">
+    <div class="auth-form-close-btn">
+      <svg class="auth-form-cross-icon" width="20" height="20">
+        <use href="./img/svg/sprite.svg#icon-x-close"></use>
+      </svg>
+    </div>
+    <div class="auth-content">
+      <span class="wrapper-input">
+        <input
+          class="auth-form-input"
+          type="text"
+          placeholder="Name"
+          name="uname"
+          id="uname"
+          required
+        />
+        </span>
+      <span class="wrapper-input">
+        <input
+          class="auth-form-input"
+          type="email"
+          placeholder="email"
+          name="uemail"
+          id="uemail"
+          required
+        />
+        <svg width="28" height="28">
+          <use href="./img/svg/sprite.svg#icon-mail"></use>
+        </svg>
+      </span>
+      <span class="wrapper-input">
+        <input
+          class="auth-form-input"
+          type="password"
+          placeholder="Password"
+          name="upassword"
+          id="upassword"
+          required
+        />
+        <svg width="28" height="28">
+          <use href="./img/svg/sprite.svg#icon-lock"></use>
+        </svg>
+      </span>
+
+      <button
+        class="signup-btn"
+        type="submit"
+        id="authform-submitBtn"
+        aria-label="button sign up"
+      >
+        SIGN UP
+      </button>
+
+      <div class="auth-form-links">
+        <span
+          id="signup-formbtn"
+          class="auth-form-linksBtn active"
+          data-login="active"
+        >
+          SIGN UP
+        </span>
+        <span id="signin-formbtn" class="auth-form-linksBtn"> SIGN IN </span>
+      </div>
+    </div>
+  </form>
+</div>
